@@ -1,0 +1,8 @@
+This folder is to 1) Delinate a watershed with whiteboxtools and 2) pull landcover data from dynamic world via google earthe engine (GEE). Dynamic world is a remote sensing product that has near realtime landcover classifications since 2015 from the sentinal platform.
+
+This workflow requires the watershed bounadries to be uploaded to gee as a feature collection (the script linked in the gee_output_script). After the gee script is run, download the csv and put it in your enviroment and read it into the gee_output_script.
+
+delinate_watersheds is used to delinate watershed for ecuador
+gee_ouput_script processes gee output, plots data for a watershed, and visualizes watersheds
+
+helpers.r, delinate_watershed_ms.r, and pull_dw_rgee.r are not working.
